@@ -14,6 +14,7 @@ window.title('Build My Resume')
 fname_var=tk.StringVar()
 lname_var=tk.StringVar()
 
+# Function to pull and get the information for the word doc
 def build_document():
     first_name =fname_var.get()
     last_name =lname_var.get()
